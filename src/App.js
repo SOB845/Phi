@@ -6,11 +6,11 @@ import './App.css';
 //import logo from './logo.svg';
 
 
-class App extends React.Component {
+class App extends Component {
   render(){
     return(
-      <div className = 'App'>
-        <header className='App-header'>
+      <div className = 'App-header'>
+        <header className='App'>
           <Intro/>
           <Explore/>
         </header>
