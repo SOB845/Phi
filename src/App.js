@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import Intro from './components/intro';
 import Explore from './components/explore';
+import Nav from './components/Navbar';
 import './App.css';
-//import { ReactComponent } from '*.svg';
-//import logo from './logo.svg';
 
 
 class App extends Component {
@@ -11,6 +10,7 @@ class App extends Component {
     return(
       <div className = 'App-header'>
         <header className='App'>
+          <Nav/>
           <Intro/>
           <Explore/>
         </header>
