@@ -10,3 +10,6 @@ Phi.ai is a sister project to Pi.ai, an open-source Natural Language Processing 
 ### How does it work?
 Phi.ai and Pi.ai were origionally built with the goal of creating a friendly and peaceful place for young researchers to share and review their papers with others such that they don't have to own an academic email address.
 The process itself is pretty straight-forward. For getting started, you just need to create a researcher account with your real names.
+
+### Can I contribute?
+Of course! We are actively looking for front-end and back-end developers with deep knowledge of JavaScript (and its novel libraries such as React and Node). If you want to join us, find me at Instagram: **@so.bios** or Twitter: **@Siobio1**
