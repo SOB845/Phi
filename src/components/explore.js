@@ -17,7 +17,7 @@ class Explore extends Component{
             <AwesomeButton type = "primary" size = "medium"> Explore </AwesomeButton>,
                 
             <AwesomeButtonSocial cssModule={AwesomeButtonStyles} type ="github" icon url="https://github.com/SOB845/Pi">
-                GitHub
+                FORK ME!
             </AwesomeButtonSocial>,
             
 
