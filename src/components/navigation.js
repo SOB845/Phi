@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import {NavDropdown, Navbar, NavItem} from 'react-bootstrap';
+import {NavDropdown, Navbar, NavItem, Nav} from 'react-bootstrap';
 
 
-class Nav extends Component{
+class Navigation extends Component{
     render() {
         return (
             <div className = "navig">
@@ -27,10 +27,14 @@ class Nav extends Component{
                         <NavDropdown.Divider />
                         <NavDropdown.Item eventKey="4.4">Visit Pi.ai</NavDropdown.Item>
                     </NavDropdown>
+                    <form key= "form-inline" className="my-2-my-lg-0">
+                        <input key="form-control" className="mr-sm-2" type="search" placeholder="Search Papers..." aria-label="Search"/>
+                        <button key= "btn btn-outline-success" className="my-2my-sm-0" type="submit">Search</button>
+                    </form>
                 </Nav>
             </div>
             
         );
     }
 }
-export default Nav;
+export default Navigation;
