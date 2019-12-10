@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Signup extends Component {
 
     state={
-        isVisible: false
+        isVisible: true
     }
 
     onClickEvent = () =>{
@@ -28,8 +28,8 @@ class Signup extends Component {
 
                                                     Email:
                                                     <input type= "text" name="email address" placeholder="Enter your email"></input>
+                                                    <button type="submit", value="Create account" onClick={this.onClickEvent.bind(this)}>Sign in</button>
                                             </label>
-                                            <input type="submit" value="Create account" onSubmit={this.onClickEvent}/>
                                         </form>
                                     </div>
                             </div>
