@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {NavDropdown, Navbar, NavItem, Nav} from 'react-bootstrap';
-
+import Intro from './intro';
 
 class Navigation extends Component{
     render() {
@@ -10,14 +10,15 @@ class Navigation extends Component{
                     activeKey="/home"
                     onSelect={selectedKey => alert(`selected ${selectedKey}`)}
                     >
+                    <Intro/>
                     <Nav.Item>
                         <Nav.Link href="/home">Home</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="signin">Sign in</Nav.Link>
+                        <Nav.Link eventKey="signin">Sign in/up</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="papers">All papers</Nav.Link>
+                        <Nav.Link eventKey="papers">Top papers</Nav.Link>
                     </Nav.Item>
 
                     <NavDropdown title="Dropdown" id="nav-dropdown">
