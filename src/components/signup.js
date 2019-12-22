@@ -1,4 +1,10 @@
 import React, { Component } from 'react';
+import "react-awesome-button/dist/styles.css";
+import {
+    AwesomeButton,
+    AwesomeButtonSocial,
+    AwesomeButtonStyles,
+} from 'react-awesome-button';
 
 class Signup extends Component {
 
@@ -35,7 +41,8 @@ class Signup extends Component {
                                                     <input type="text" name="University" placeholder="      Where do you study?"></input>
                                                     <br/>
                                                     <br/>
-                                                    <button className="sign_in" type="submit" value="create account">Sign in</button>
+                                                    <AwesomeButton cssModule={AwesomeButtonStyles} type = "primary" size = "medium" href="home">Sign up</AwesomeButton>
+
                                             </label>
                                         </form>
                                     </div>
